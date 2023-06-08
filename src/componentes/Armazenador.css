@@ -3,5 +3,51 @@
     background-color: aquamarine;
     margin-bottom: 4rem;
     border: 1px solid #555;
+    border-radius: .5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+    padding: 1rem;
+    display: block;
+    /*display: flex;*/
 }
 
+.Armazenador .repoimg {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+
+.Armazenador .conteudo {
+    margin-left: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.Armazenador .conteudo .titulo {
+    font-size: 1.25rem;
+    margin: .5rem 0 .25rem 0;
+    color: #2d3748
+}
+
+.Armazenador .conteudo .area {
+    color: #007bff;
+}
+
+.Armazenador .conteudo .resumo {
+    color: #4a5568;
+    margin: .5rem 0;
+}
+
+.Armazenador .conteudo .data {
+    text-align: right;
+    color: #718096;
+    font-size: .75rem;
+}
+
+.Armazenador .conteudo button {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+}

@@ -132,7 +132,7 @@ class App extends Component {
             <br></br>
 
             
-            <form method="post" onSubmit={this.adicionarTCCInput} /** onSubmit modifica o Array de Estado de acordo com o que vem do formulário*/>
+            <form method="post" onSubmit={this.adicionarTCCInput} className="Novo-Arquivo" /** onSubmit modifica o Array de Estado de acordo com o que vem do formulário*/>
               
               <h3>Adicionando um Novo TCC Via Input</h3>
               <input
